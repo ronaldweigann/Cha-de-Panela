@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Righteous&display=swap" rel="stylesheet">
@@ -14,43 +16,41 @@
 
     <title>Produtos</title>
 </head>
-<body>
-    <img class="fundo-lista" src="./image/leaves-7702829_1920.jpg" alt="imagem do fundo">
+<body class="fundo-lista">
     <main class="conteudo-principal">
-        <h1 class="lista">Lista de Produtos</h1>
+        <h1 data-aos="fade-down" class="lista">Lista de Produtos</h1>
         <ul class="produtos">
-            <li>Jogo de Panela</li>
-            <li>Jogo de Copo</li>
-            <li>Jogo de Pratos</li>
-            <li>Jogo de Lençol</li>
-            <li>Escorredor de Pratos</li>
-            <li>Escorredor de Macarrão</li>
-            <li>Lixeiras (Banheiro e Cozinha)</li>
-            <li>Jogo de Assadeira</li>
-            <li>Jarra</li>
-            <li>Cortador de Carne</li>
-            <li>Tabua</li>
-            <li>Jogo de Faca Grande</li>
-            <li>Saleiro</li>
+            <li data-aos="fade-right">Jogo de Panela</li>
+            <li data-aos="fade-right">Jogo de Copo</li>
+            <li data-aos="fade-right">Jogo de Pratos</li>
+            <li data-aos="fade-right">Jogo de Lençol</li>
+            <li data-aos="fade-right">Escorredor de Pratos</li>
+            <li data-aos="fade-right">Escorredor de Macarrão</li>
+            <li data-aos="fade-right">Lixeiras (Banheiro e Cozinha)</li>
+            <li data-aos="fade-right">Jogo de Assadeira</li>
+            <li data-aos="fade-right">Jarra</li>
+            <li data-aos="fade-right">Cortador de Carne</li>
+            <li data-aos="fade-right">Tabua</li>
+            <li data-aos="fade-right">Jogo de Faca Grande</li>
+            <li data-aos="fade-right">Saleiro</li>
             <!-- <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
             <li></li> -->
         </ul>
     </main>
 
-      <footer>
-        <div class="pix">
-            <h3>Caso queiram ajudar com um pix</h3>
+      <footer class="rodape">
+        <div data-aos="fade-up" class="pix">
+            <h2>Caso queiram nos ajudar a comprar (Fogão, Armario e Geladeira) <br> 
+                Chave pix:
+            </h2>
         </div>
-        <div class="chave">
-            <p>Chave Pix:</p>
-        </div>
-        <img class="qrcode" src="./image/qrcode.png" alt="QRcode">
+    
+        <img data-aos="fade-up" class="qrcode" src="./image/qrcode.png" alt="QRcode">
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

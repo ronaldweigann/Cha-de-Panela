@@ -3,26 +3,27 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lobster Two', cursive;
-    background-color: #98fb98;
 }
 
-.imagem-fundo {
-    position: absolute;
+.baner {
+    background:  url("./image/pngtree-leaves-frame-watercolor-element-gold-png-image_3974216.png") no-repeat  center;
+  
+
     z-index: -1;
     width: 100vw;
-    height: 110vh;
+    height: 40vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
-    opacity: 0.8;
 }
+
 
 .titulo {
     display: flex;
     justify-content: center;
     /* color: #00ff7f; */
-    margin-top: 0;
-    padding-top: 180px;
+    margin-top: 80px;
+    color: rgba(1, 2, 5, 0.993);
 }
 
 .nomes {
@@ -30,40 +31,38 @@ body {
     justify-content: center;
     color: rgb(218, 165, 32);
     margin-top: 0;
-    margin-bottom: 50px;
+    margin-bottom: 120px;
 }
 
 .texto {
     display: flex;
     justify-content: center;
-    /* color: rgb(218, 165, 32); */
-    max-width: 200px;
-    margin: 0 100px 20px;
     text-align: center;
+    color: rgba(1, 2, 5, 0.993);
 }
 
 .data {
     display: flex;
     justify-content: center;
-    /* color: rgb(234, 151, 6); */
+    color: rgb(234, 151, 6);
 }
 
 .local {
     display: flex;
     justify-content: center;
-    /* color: rgb(234, 151, 6); */
+    color: rgb(234, 151, 6);
     margin-bottom:40px ;
 }
 
 a {
     display: inline-block;
     text-transform: uppercase;
-    color: black;
+    color: rgba(1, 2, 5, 0.993);
 }
 
 button {
     display: flex;
-    background-color: rgb(234, 151, 6);
+    background-color: rgb(11, 192, 101);
     padding: 10px;
     font-size: 15px;
     font-weight: bold;
@@ -71,16 +70,18 @@ button {
     border: none;
     border-radius: 8px;
     transition: 0.5s all ease-in-out;
-    margin-left: 150px;
+    margin-left: 145px;
 }
 
-.fundo-lista {
-    position: absolute;
-    z-index: -1;
-    overflow: hidden;
+.clique-ver-lista {
     display: flex;
     justify-content: center;
-    opacity: 0.8;
+    color: rgba(1, 2, 5, 0.993);;
+}
+
+
+.fundo-lista {
+   background-image: linear-gradient(to bottom right, rgb(0, 255, 162), rgb(0, 255, 76));
 }
 
 .conteudo-principal{
@@ -100,8 +101,8 @@ button {
     font-size: 34px;
     line-height: 79px;
 
-    color: #FFF2E7;
-    border-bottom: 0.4px solid #FFF2E7 ;
+    color: rgba(1, 2, 5, 0.993);
+    border-bottom: 0.6px solid rgba(1, 2, 5, 0.993);;
    
 }
 
@@ -112,10 +113,10 @@ button {
     font-size: 26px;
     line-height: 79px;
 
-    color: #FFF2E7;
+    color: rgba(1, 2, 5, 0.993);
 }
 
-footer {
+.rodape {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -128,15 +129,20 @@ footer {
     line-height: 79px;
 
     color: #FFF2E7;
-    border-top: 0.4px solid #FFF2E7
+    border-top: 0.6px solid rgba(1, 2, 5, 0.993);
     
 }
 
-.pix {
-
+.rodape .pix {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    color: rgba(1, 2, 5, 0.993);
 }
 
 .qrcode {
     width: 150px;
+    border: 0.6px solid rgba(1, 2, 5, 0.993) ;
 }
 
