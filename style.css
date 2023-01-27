@@ -6,7 +6,7 @@ body {
 }
 
 .baner {
-    background:  url("./image/pngtree-leaves-frame-watercolor-element-gold-png-image_3974216.png") no-repeat  center;
+    background:  url("./image/pngtree-leaves-frame-watercolor-element-gold-png-image_3974216-removebg-preview.png") no-repeat  center;
   
 
     z-index: -1;
@@ -22,7 +22,7 @@ body {
     display: flex;
     justify-content: center;
     /* color: #00ff7f; */
-    margin-top: 80px;
+    margin-top: 95px;
     color: rgba(1, 2, 5, 0.993);
 }
 
@@ -143,6 +143,7 @@ button {
 
 .qrcode {
     width: 150px;
+    margin-bottom: 35px;
     border: 0.6px solid rgba(1, 2, 5, 0.993) ;
 }
 
